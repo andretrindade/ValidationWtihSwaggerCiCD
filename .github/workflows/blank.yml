@@ -9,4 +9,4 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: validate
-      run: validate . ./json
+      run: validate . ./swagger-files
